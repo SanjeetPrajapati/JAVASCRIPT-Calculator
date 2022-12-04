@@ -1,7 +1,7 @@
 .box {
     margin: auto;
     /* height: 200%; */
-    width: 35%;
+    width: fit-content;
     border: 2px solid rgb(30, 30, 30);
     /* border-top-right-radius: 7%;
     border-top-left-radius: 7%; */
@@ -20,7 +20,7 @@ h1 {
 .box button {
 
     position: relative;
-    width: 28%;
+    width: 27%;
     /* width: fit-content; */
 
     height: 6vh;
@@ -28,7 +28,7 @@ h1 {
     /* font-size: larger; */
     /* font-size: 500%; */
     /* left: 10%; */
-    margin: 2%;
+    margin:2%;
     border-radius: 30%;
 
 
@@ -91,4 +91,7 @@ button {
 }
 span{
     font-size: 3vh;
+}
+button:hover{
+    cursor: pointer;
 }

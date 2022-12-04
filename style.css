@@ -1,0 +1,94 @@
+.box {
+    margin: auto;
+    /* height: 200%; */
+    width: 35%;
+    border: 2px solid rgb(30, 30, 30);
+    /* border-top-right-radius: 7%;
+    border-top-left-radius: 7%; */
+    background-color: black;
+
+
+}
+
+h1 {
+    background-color: aliceblue;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.box button {
+
+    position: relative;
+    width: 28%;
+    /* width: fit-content; */
+
+    height: 6vh;
+    font-size: 4vh;
+    /* font-size: larger; */
+    /* font-size: 500%; */
+    /* left: 10%; */
+    margin: 2%;
+    border-radius: 30%;
+
+
+}
+
+button {
+    background-color: rgb(138, 237, 237);
+}
+
+.scr {
+
+    border: 2px solid rgb(30, 30, 30);
+    background-color: rgb(229, 253, 245);
+    height: 5vh;
+    margin: auto;
+    border-radius: 10%;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+#screen {
+    font-size: 3vh;
+    padding-left: 2%;
+    padding: auto;
+    margin: auto;
+}
+
+/* #scr-down {
+    
+
+} */
+
+
+.btn-box {
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.378);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    background-color: rgb(200, 228, 200);
+    padding: 5%;
+    text-align: center;
+}
+
+.clear {
+    background-color: coral;
+
+}
+
+.equal {
+    background-color: rgb(141, 245, 141);
+}
+
+.del {
+    background-color: rgb(251, 184, 184);
+}
+
+.oprator {
+    background-color: rgba(91, 26, 114, 0.154);
+}
+span{
+    font-size: 3vh;
+}

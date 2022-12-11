@@ -21,5 +21,7 @@ function del() {
 }
 
 function equal() {
-    document.getElementById("scr-down").innerHTML = ' = ' + eval(screen.innerHTML)
+    document.getElementById("screen").innerHTML = eval(screen.innerHTML)
+    document.getElementById("scr-down").innerHTML = ' '
+    // console.log("u can double click")
 }

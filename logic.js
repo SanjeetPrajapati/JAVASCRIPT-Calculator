@@ -17,7 +17,7 @@ function del() {
     screen.innerHTML = screen.innerHTML.slice(0, -1)
     console.log("1 element deleted from last")
     document.getElementById("scr-down").innerHTML = ' = ' + eval(screen.innerHTML)
-    document.getElementById("scr-down").innerHTML = " ";
+    // document.getElementById("scr-down").innerHTML = " ";
 }
 
 function equal() {
